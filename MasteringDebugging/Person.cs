@@ -4,7 +4,9 @@ using System.Diagnostics;
 
 namespace MasteringDebugging
 {
+    #region Hidden for now
     [DebuggerDisplay("{FullName}, DOB Time {DateOfBirth.Minute}, number of children = '{Children.Count}'")]
+    #endregion
     public class Person
     {
         public string FirstName { get; set; }
@@ -14,14 +16,8 @@ namespace MasteringDebugging
         public DateTime DateOfBirth { get; set; }
         public List<Person> Children { get; set; }
 
-        public string FullName
-        {
-            get
-            {
-                return string.IsNullOrEmpty(MiddleInitial)
-                    ? string.Format("{0} {1}", FirstName, LastName)
-                    : string.Format("{0} {1}. {2}", FirstName, MiddleInitial, LastName);
-            }
-        }
+        public string FullName => string.IsNullOrEmpty(MiddleInitial)
+            ? $"{FirstName} {LastName}"
+            : $"{FirstName} {MiddleInitial}. {LastName}";
     }
 }
