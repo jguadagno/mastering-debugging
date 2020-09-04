@@ -24,7 +24,6 @@ Joseph Guadagno
   * Continue
   * Set Next Statement
   * Show Next Statement
-<<<<<<< HEAD
 * Labeling in Break Point
 * Conditional Breakpoint
 * Import / Export Breakpoint
