@@ -24,6 +24,7 @@ Joseph Guadagno
   * Continue
   * Set Next Statement
   * Show Next Statement
+<<<<<<< HEAD
 * Labeling in Break Point
 * Conditional Breakpoint
 * Import / Export Breakpoint
@@ -52,11 +53,11 @@ Joseph Guadagno
 
 ### Call Stack
 
-### Debugging Multithreaded Program (optional)
+### Debugging Multi-threaded Program (optional)
 
 * Exploring Threads Window
 * Flag Just My Code
-* Break Point Filter - Multithread Debugging
+* Break Point Filter - Multi-thread Debugging
 * Debugging Parallel Program
 * Parallel Task and Parallel Stacks
 
