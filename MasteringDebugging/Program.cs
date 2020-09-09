@@ -3,26 +3,27 @@ using System.Collections.Generic;
 
 namespace MasteringDebugging
 {
-    class Programm
+    class Program
     {
 
         static void Main(string[] args)
         {
             try
             {
-               List<Person> people = PopulatePeople();
+                List<Person> people = PopulatePeople();
 
                 foreach (var person in people)
                 {
                     Console.WriteLine(person.FullName);
                 }
                 Console.ReadLine();
-                Console.WriteLine(people[6].FirstName);
+                //Console.WriteLine(people[6].FirstName);
                 Console.WriteLine("Done");
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.ToString());
+                Console.ReadLine();
             }
         }
         static List<Person> PopulatePeople ()

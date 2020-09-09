@@ -5,7 +5,7 @@ using System.Diagnostics;
 namespace MasteringDebugging
 {
     #region Hidden for now
-    [DebuggerDisplay("{FullName}, DOB Time {DateOfBirth.Minute}, number of children = '{Children.Count}'")]
+    //[DebuggerDisplay("{FullName}, DOB Time {DateOfBirth.Minute}, number of children = '{Children.Count}'")]
     #endregion
     public class Person
     {
