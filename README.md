@@ -1,3 +1,3 @@
-# mastering-debugging
+# Mastering Debugging
 
-This is the source code for the Master Debugging sessions
+This repository is the source code for the *Master Debugging* or the *Debugging Tips and Tricks* presentation.

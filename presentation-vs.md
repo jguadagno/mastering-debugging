@@ -1,17 +1,9 @@
 # Mastering Debugging with Visual Studio
 
-## Creator
-
-Joseph Guadagno
-
-* [About Joe](http://jjg.me/aboutJJG)  - 'http://jjg.me/aboutJJG'
-* Follow me on Twitter [@jguadagno](https://www.twitter.com/jguadagno)
-* Email me at [jguadagno@hotmail.com](mailto:jguadagno@hotmail.com)
-* [Website](http://www.josephguadagno.net)
-
 ## Reference
 
-[Mastering Debugging In Visual Studio](http://www.codeproject.com/Articles/79508/Mastering-Debugging-in-Visual-Studio-A-Beginn)
+Read other tips and tricks at this article: '
+[Mastering Debugging In Visual Studio](http://www.codeproject.com/Articles/79508/Mastering-Debugging-in-Visual-Studio-A-Beginn)'
 
 ## Presentation
 
@@ -24,7 +16,7 @@ Joseph Guadagno
   * Continue
   * Set Next Statement
   * Show Next Statement
-* Labeling in Break Point
+* Labeling in Breakpoint
 * Conditional Breakpoint
 * Import / Export Breakpoint
 * Breakpoint Hit Count
@@ -56,7 +48,7 @@ Joseph Guadagno
 
 * Exploring Threads Window
 * Flag Just My Code
-* Break Point Filter - Multi-thread Debugging
+* Breakpoint Filter - Multi-thread Debugging
 * Debugging Parallel Program
 * Parallel Task and Parallel Stacks
 
