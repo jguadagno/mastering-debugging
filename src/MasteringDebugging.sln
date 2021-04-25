@@ -7,7 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasteringDebugging", "Maste
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{5CEAE0A4-4B55-4689-A458-EBCD7429B326}"
 	ProjectSection(SolutionItems) = preProject
-		presentation.md = presentation.md
+		presentation.md = ..\src\presentation-vs.md
+		..\presentation-vs.md = ..\presentation-vs.md
 	EndProjectSection
 EndProject
 Global
