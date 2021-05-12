@@ -1,30 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace MasteringDebugging
 {
-    class Program
+    static class Program
     {
-
         static void Main(string[] args)
         {
-            try
-            {
-                List<Person> people = PopulatePeople();
+            List<Person> people = PopulatePeople();
 
-                foreach (var person in people)
-                {
-                    Console.WriteLine(person.FullName);
-                }
-                Console.ReadLine();
-                //Console.WriteLine(people[6].FirstName);
-                Console.WriteLine("Done");
-            }
-            catch (Exception ex)
+            foreach (var person in people)
             {
-                Console.WriteLine(ex.ToString());
-                Console.ReadLine();
+                Console.WriteLine(person.FullName);
             }
+            var parentCount = people.Where(p => p.LastName =="Guadagno").Count(p => p.Children != null);
+            Console.WriteLine($"Number of parents is {parentCount}");
+            Console.WriteLine("Press Enter");
+            Console.ReadLine();
+            Console.WriteLine("Done");
         }
         static List<Person> PopulatePeople ()
         {
