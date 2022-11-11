@@ -7,7 +7,19 @@ Read other tips and tricks at this article: '
 
 ## Presentation
 
+### Debug Menu
+
+* Speak to the Menu - Debug
+* Speak to the Menu - Windows
+* Speak to the Debug Toolbar
+* Speak to the Attach to Process
+  * Tree View
+  * Command Line column
+  * Select Window button
+
 ### Breakpoints
+
+***NOTE***: * new for 2022
 
 * Debugging with Breakpoints
   * Step Over
@@ -16,12 +28,17 @@ Read other tips and tricks at this article: '
   * Continue
   * Set Next Statement
   * Show Next Statement
+  * "Run to Cursor" *
+  * "Force Run to Cursor" *
+* Grey Glyph *
 * Labeling in Breakpoint
 * Conditional Breakpoint
 * Import / Export Breakpoint
 * Breakpoint Hit Count
 * Breakpoint When Hit
 * Breakpoint Filter
+* Breakpoint - Temporary *
+* Breakpoint - Dependent *
 
 ### Data Tip
 

@@ -492,3 +492,4 @@ MigrationBackup/
 # End of https://www.gitignore.io/api/rider,macos,windows,visualstudio,visualstudiocode,resharper
 
 .idea/
+.vs/

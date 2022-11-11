@@ -13,8 +13,8 @@ namespace MasteringDebugging
             foreach (var person in people)
             {
                 Console.WriteLine(person.FullName);
-            }
-            var parentCount = people.Where(p => p.LastName =="Guadagno").Count(p => p.Children != null);
+            } 
+            var parentCount = people.Where(p => p.LastName =="Guadagno").Count(p => p.Children is not null);
             Console.WriteLine($"Number of parents is {parentCount}");
             Console.WriteLine("Press Enter");
             Console.ReadLine();
