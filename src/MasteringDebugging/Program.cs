@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using MasteringDebugging;
 
-namespace MasteringDebugging
+Console.WriteLine("Hello, World!");
+try
 {
-    static class Program
-    {
-        static void Main(string[] args)
-        {
-            List<Person> people = PopulatePeople();
+    List<Person> people = PopulatePeople();
 
             foreach (var person in people)
             {
