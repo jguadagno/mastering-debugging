@@ -493,3 +493,4 @@ MigrationBackup/
 
 .idea/
 .vs/
+*.sln..DotSettings
