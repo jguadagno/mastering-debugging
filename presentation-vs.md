@@ -1,6 +1,6 @@
 # Mastering Debugging with Visual Studio
 
-## Creator 
+## Creator
 
 Joseph Guadagno
 
