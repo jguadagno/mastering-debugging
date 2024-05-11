@@ -15,12 +15,9 @@ Console.WriteLine("Press Enter");
 Console.ReadLine();
 Console.WriteLine("Done");
 
-static List<Person> PopulatePeople ()
-{
-    return new List<Person> {
-        new Person {FirstName = "Joseph", MiddleInitial="J", LastName="Guadagno", Email="jguadagno@hotmail.com", DateOfBirth= DateTime.Parse("05/31/1971 2:17 am"), Children = new List<Person> {new Person {FirstName = "JJ"}}},
+static List<Person> PopulatePeople() => [
+        new Person {FirstName = "Joseph", MiddleInitial="J", LastName="Guadagno", Email="jguadagno@hotmail.com", DateOfBirth= DateTime.Parse("05/31/1971 2:17 am"), Children = [new Person {FirstName = "JJ", LastName="Guadagno", Email="jjguadagno@hotmail.com"}, new Person {FirstName = "Emily", LastName="Guadagno", Email="eeguadagno@hotmail.com"}]},
         new Person {FirstName = "Deidre", MiddleInitial="A", LastName="Guadagno", Email="deeguadagno@hotmail.com", DateOfBirth= DateTime.Parse("05/03/1970")},
         new Person {FirstName = "Joseph", MiddleInitial="J", LastName="Guadagno", Email="jjguadagno@gmail.com", DateOfBirth= DateTime.Parse("05/31/1997")},
         new Person {FirstName = "Emily", MiddleInitial="E", LastName="Guadagno", Email="eeguadagno@msn.com", DateOfBirth= DateTime.Parse("05/31/1999")}
-    };
-}
+    ];

@@ -5,10 +5,13 @@ namespace MasteringDebugging;
 #endregion
 public class Person
 {
-    public string FirstName { get; set; }
-    public string MiddleInitial { get; set; }
-    public string LastName { get; set; }
-    public string Email { get; set; }
+
+    public Person() => Children = [];
+
+    public required string FirstName { get; set; }
+    public string? MiddleInitial { get; set; }
+    public required string LastName { get; set; }
+    public required string Email { get; set; }
     #region Hidden for now
     //[DebuggerBrowsable(DebuggerBrowsableState.Never)]
     #endregion
