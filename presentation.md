@@ -11,7 +11,8 @@ Joseph Guadagno
 
 ## Reference
 
-[Mastering Debugging In Visual Studio](http://www.codeproject.com/Articles/79508/Mastering-Debugging-in-Visual-Studio-A-Beginn)
+* [Mastering Debugging In Visual Studio](http://www.codeproject.com/Articles/79508/Mastering-Debugging-in-Visual-Studio-A-Beginn)
+* [Debugger Documentation](https://learn.microsoft.com/en-us/visualstudio/debugger/?view=vs-2022&wt.mc_id=DT-MVP-4024623])
 
 ## Presentation
 
