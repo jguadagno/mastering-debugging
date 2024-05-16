@@ -1,7 +1,7 @@
 namespace MasteringDebugging;
 
 #region Hidden for now
-[System.Diagnostics.DebuggerDisplay("{FullName}, DOB Time {DateOfBirth.Minute}, number of children = '{Children.Count}'")]
+//[System.Diagnostics.DebuggerDisplay("{FullName}, DOB Time {DateOfBirth.Minute}, number of children = '{Children.Count}'")]
 #endregion
 public class Person
 {
@@ -13,7 +13,7 @@ public class Person
     public required string LastName { get; set; }
     public required string Email { get; set; }
     #region Hidden for now
-    //[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+    //[System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)]
     #endregion
     public DateTime DateOfBirth { get; set; }
     public List<Person> Children { get; set; }
